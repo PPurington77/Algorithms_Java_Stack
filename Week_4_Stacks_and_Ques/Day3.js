@@ -155,7 +155,7 @@ class Queue {
      * @returns {boolean} Whether all the items of the two queues are equal and
      *    in the same order.
      */
-     compareQueues(q2) {
+    compareQueues(q2) {
         var currSize = this.size()
         var isEqual = true
         if(q2.size() != this.size()) return false
@@ -180,7 +180,7 @@ class Queue {
      * - Space: O(?).
      * @returns {boolean}
      */
-     isPalindrome() {
+    isPalindrome() {
         var stack1 = new Stack();
         var currVal
         var isEqual = true
@@ -198,7 +198,7 @@ class Queue {
         }
         return isEqual 
     }
-
+}
 var q1 = new Queue();
 var q2 = new Queue();
 
